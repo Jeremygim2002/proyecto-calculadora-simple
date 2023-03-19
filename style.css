@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: #6368ea;
+}
+
+header div{
+    display: flex;
+    margin: 50px 0px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 60px;
+}
+
+
+#formulario {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( to right, blue , violet);
+    /* background-image: radial-gradient(rgb(161, 12, 247) 30%, rgb(255, 17, 0)); */
+}
+
+
+.formulario__div-datos {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.formulario__div-datos label {
+    pointer-events: none;
+}
+
+.formulario__div-datos input {
+    color: black;
+    width: 180px;
+    background: none;
+    border: none;
+    outline: 0px;
+    border-bottom: 1px solid;
+}
+
+
+.formulario__div-datos input:after {
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 25px solid #000;
+}
+
+
+.formulario__div-datos input::placeholder {
+    font-style: italic;
+    color: black;
+}
+
+
+
+
+
+
+.formulario__div-acciones {
+    display: block;
+    margin: auto;
+}
+
+
+.formulario__div-operar button{
+    margin: 20px;
+    font-size: 22px;
+    background-color: black;
+    box-shadow: 3px 3px 15px black;
+}
+
+.formulario__div-limpiar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario__div-limpiar button{
+    background-color:black;
+    margin: 20px;
+    font-size: 20px;
+    box-shadow: 3px 3px 15px black;
+}
+
+
+.formulario__div-limpiar p{
+    margin: 20px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  margin: 0px; 
+}
+
+
+@media screen and (max-width: 480px){
+ 
+    #formulario {
+        max-width: 400px;
+    }
+
+    .formulario__div-operar button{
+        margin: 5px;
+    }
+
+    .formulario__div-limpiar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario__div-limpiar p{
+        margin: 20px;
+        display: flex;
+        justify-content:flex-start;
+    }
+}
+
