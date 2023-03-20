@@ -18,12 +18,12 @@ header div{
 
 h1 {
     margin: auto;
-    font-size: 60px;
+    font-size: 55px;
 }
 
 
 #formulario {
-    max-width: 700px;
+    max-width: 650px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -39,9 +39,6 @@ h1 {
     font-size: 18px;
 }
 
-.formulario__div-datos label {
-    pointer-events: none;
-}
 
 .formulario__div-datos input {
     color: black;
