@@ -19,5 +19,6 @@ Permite realizar las operaciones básicas: **suma, resta, multiplicación y divi
 
 ## 📲 Cómo usarlo
 1. Clonar el repositorio:
-git clone https://github.com/tuusuario/calculadora-web.git
-2. Abrir el archivo index.html en tu navegador.
+git clone https://github.com/Jeremygim2002/proyecto-calculadora-simple.git
+
+3. Abrir el archivo index.html en tu navegador.
