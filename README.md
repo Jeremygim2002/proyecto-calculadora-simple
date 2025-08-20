@@ -3,12 +3,6 @@
 Este es un proyecto simple de **calculadora web** desarrollada con **HTML, CSS y JavaScript**.  
 Permite realizar las operaciones básicas: **suma, resta, multiplicación y división**.
 
-📂 Estructura del proyecto
-
-├── index.html 
-├── style.css 
-└── index.js 
-
 🚀 Funcionalidades
 - Ingreso de dos números mediante inputs.
 - Botones para:
